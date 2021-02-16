@@ -150,6 +150,7 @@ try:
 # please install 'pyttsx3' module to enjoy audio feature
 
 except Exception as e:
+  print(e)
   random_num = random.randint(10, 40)
   the_number = random_num
   i = 10
